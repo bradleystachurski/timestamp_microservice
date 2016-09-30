@@ -1,0 +1,23 @@
+{
+  "name": "timestamp_microservice",
+  "version": "1.0.0",
+  "description": "A timestamp microservice project for the FreeCodeCamp curriculum",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleystachurski/timestamp_microservice.git"
+  },
+  "author": "Bradley Stachurski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradleystachurski/timestamp_microservice/issues"
+  },
+  "homepage": "https://github.com/bradleystachurski/timestamp_microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10"
+  }
+}
