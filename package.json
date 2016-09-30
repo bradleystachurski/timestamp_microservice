@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/bradleystachurski/timestamp_microservice#readme",
   "dependencies": {
-    "express": "^4.14.0",
+    "express": "^4.14.0"
   }
 }
