@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Timestamp Microservice</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <h1 class="header">
+    API: Timestamp Microservice
+  </h1>
+
+  <hr/>
+
+  <h4>This is a simple microservice that takes string parameters in the URL. Anything following '/' will be processed.</h4>
+  <h4>The string passed in through the URL can be formatted either as a unix timestamp or a natural language date.</h4>
+  <h4>See the examples below and give it a try.</h4>
+
+  <h3>Example usage:</h3>
+  <code>https://timestamp-stachurski.herokuapp.com/October%201,%202016</code><br>
+  <code>https://timestamp-stachurski.herokuapp.com/1475269200</code>
+  <h3>Example output:</h3>
+  <code>
+    {
+    "unix": 1475269200,
+    "natural": "October 1, 2016"
+    }
+  </code>
+</div>
+</body>
+</html>
